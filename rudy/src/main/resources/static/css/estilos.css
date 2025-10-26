@@ -1,0 +1,122 @@
+/* Tipografía y fondo general */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Encabezado principal */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* Catálogo de productos */
+#catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+/* Tarjeta de producto */
+.producto {
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    width: 260px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Título y descripción */
+.producto h3 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+.producto p {
+    margin: 5px 0 15px;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Botón de agregar */
+.agregar-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.agregar-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Tabla de carrito */
+table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+    font-size: 15px;
+}
+
+th {
+    background-color: #f0f2f5;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Botón de eliminar */
+button:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Footer corporativo */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+

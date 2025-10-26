@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <script src="/js/catalogo.js" defer></script>
+    <style>
+        .producto { border: 1px solid #ccc; padding: 10px; margin: 10px; display: inline-block; width: 200px; }
+        .producto img { width: 100%; height: auto; }
+        .agregar-btn { background-color: #007bff; color: white; border: none; padding: 5px 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+<h1>Catálogo de Productos</h1>
+<div style="display: flex; justify-content: flex-end; padding: 10px;">
+    <a href="/carrito/vista">
+        <button class="agregar-btn">Ver carrito</button>
+    </a>
+</div>
+<div id="catalogo"></div>
+</body>
+</html>
+
